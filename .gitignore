@@ -1,0 +1,130 @@
+# Ignore raw data and downloads
+data/raw/
+data/original/
+downloads/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Local master table and archives
+main_table.csv
+main_table.parquet
+*.zip
+*.tar.gz
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+
+# Original datasets and generated outputs
+/raw/
+/data/
+/processed/
+/processed_out/
+/reports/
+/datasets/
+main_table.*
+master_table*
+
+# Archives and image data
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[pP][nN][gG]
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+*.bmp
+*.webp
+
+# Model weights and binary datasets
+checkpoints/
+models/
+weights/
+runs/
+wandb/
+mlruns/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.parquet
+*.arrow
+*.sqlite*
+*.db
+
+# Environments and caches
+ENV/
+.conda/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.pyo
+*.egg-info/
+build/
+dist/
+node_modules/
+.coverage
+htmlcov/
+
+# Credentials and private configuration
+.env.*
+*.env
+.envrc
+.secrets/
+secrets/
+credentials/
+*credentials*.json
+*credentials*.yaml
+*credentials*.yml
+*secret*.json
+*secret*.yaml
+*secret*.yml
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.netrc
+.npmrc
+.pypirc
+.aws/
+.azure/
+.ssh/
+
+# Local editor files and logs
+.vscode/
+.idea/
+*.log
+*.tmp
+*.bak
+Thumbs.db
+Desktop.ini
+
+# Local agent instructions
+[aA][gG][eE][nN][tT].[mM][dD]
+[aA][gG][eE][nN][tT][sS].[mM][dD]
